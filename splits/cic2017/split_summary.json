@@ -1,0 +1,95 @@
+{
+ "dataset": "cic2017",
+ "windows": 492,
+ "attack_windows": 114,
+ "day_split": {
+  "friday.csv": {
+   "CAL": 0,
+   "FIT": 0,
+   "OTHER": 0,
+   "TEST": 38,
+   "TEST_ATTEMPTED": 56,
+   "TEST_NEAR": 3,
+   "TRAINDAY_ATTACK": 0,
+   "VAL": 0
+  },
+  "monday.csv": {
+   "CAL": 15,
+   "FIT": 83,
+   "OTHER": 0,
+   "TEST": 0,
+   "TEST_ATTEMPTED": 0,
+   "TEST_NEAR": 0,
+   "TRAINDAY_ATTACK": 0,
+   "VAL": 0
+  },
+  "thursday.csv": {
+   "CAL": 0,
+   "FIT": 0,
+   "OTHER": 0,
+   "TEST": 74,
+   "TEST_ATTEMPTED": 3,
+   "TEST_NEAR": 20,
+   "TRAINDAY_ATTACK": 0,
+   "VAL": 0
+  },
+  "tuesday.csv": {
+   "CAL": 8,
+   "FIT": 43,
+   "OTHER": 18,
+   "TEST": 0,
+   "TEST_ATTEMPTED": 0,
+   "TEST_NEAR": 0,
+   "TRAINDAY_ATTACK": 29,
+   "VAL": 0
+  },
+  "wednesday.csv": {
+   "CAL": 0,
+   "FIT": 0,
+   "OTHER": 13,
+   "TEST": 0,
+   "TEST_ATTEMPTED": 0,
+   "TEST_NEAR": 0,
+   "TRAINDAY_ATTACK": 23,
+   "VAL": 66
+  }
+ },
+ "day_split_roles": {
+  "FIT": 126,
+  "TEST": 112,
+  "VAL": 66,
+  "TEST_ATTEMPTED": 59,
+  "TRAINDAY_ATTACK": 52,
+  "OTHER": 31,
+  "CAL": 23,
+  "TEST_NEAR": 23
+ },
+ "random_split_roles": {
+  "TEST": 164,
+  "FIT": 126,
+  "OTHER": 113,
+  "VAL": 66,
+  "CAL": 23
+ },
+ "test_attack_types": {
+  "Botnet": 13,
+  "Infiltration - Portscan": 11,
+  "Portscan": 11,
+  "Web Attack - Brute Force": 9,
+  "Infiltration": 7,
+  "DDoS": 5,
+  "Web Attack - XSS": 4,
+  "Web Attack - SQL Injection": 2
+ },
+ "trainday_attack_types": {
+  "SSH-Patator": 15,
+  "FTP-Patator": 14,
+  "DoS Slowloris": 6,
+  "DoS Slowhttptest": 5,
+  "DoS Hulk": 5,
+  "Heartbleed": 5,
+  "DoS GoldenEye": 2
+ },
+ "nodes_total": 179077,
+ "edges_total": 228842
+}

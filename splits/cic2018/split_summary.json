@@ -1,0 +1,133 @@
+{
+ "dataset": "cic2018",
+ "windows": 1417,
+ "attack_windows": 300,
+ "day_split": {
+  "Friday-02-03-2018.csv": {
+   "CAL": 0,
+   "FIT": 0,
+   "OTHER": 0,
+   "TEST": 137,
+   "TEST_NEAR": 6,
+   "TRAINDAY_ATTACK": 0,
+   "VAL": 0
+  },
+  "Friday-16-02-2018.csv": {
+   "CAL": 0,
+   "FIT": 90,
+   "OTHER": 24,
+   "TEST": 0,
+   "TEST_NEAR": 0,
+   "TRAINDAY_ATTACK": 3,
+   "VAL": 0
+  },
+  "Friday-23-02-2018.csv": {
+   "CAL": 0,
+   "FIT": 0,
+   "OTHER": 18,
+   "TEST": 0,
+   "TEST_NEAR": 0,
+   "TRAINDAY_ATTACK": 31,
+   "VAL": 87
+  },
+  "Thursday-01-03-2018.csv": {
+   "CAL": 0,
+   "FIT": 0,
+   "OTHER": 0,
+   "TEST": 131,
+   "TEST_NEAR": 6,
+   "TRAINDAY_ATTACK": 0,
+   "VAL": 0
+  },
+  "Thursday-15-02-2018.csv": {
+   "CAL": 0,
+   "FIT": 126,
+   "OTHER": 12,
+   "TEST": 0,
+   "TEST_NEAR": 0,
+   "TRAINDAY_ATTACK": 17,
+   "VAL": 0
+  },
+  "Thursday-22-02-2018.csv": {
+   "CAL": 92,
+   "FIT": 0,
+   "OTHER": 20,
+   "TEST": 0,
+   "TEST_NEAR": 0,
+   "TRAINDAY_ATTACK": 25,
+   "VAL": 0
+  },
+  "Tuesday-20-02-2018.csv": {
+   "CAL": 0,
+   "FIT": 116,
+   "OTHER": 12,
+   "TEST": 0,
+   "TEST_NEAR": 0,
+   "TRAINDAY_ATTACK": 18,
+   "VAL": 0
+  },
+  "Wednesday-14-02-2018.csv": {
+   "CAL": 0,
+   "FIT": 95,
+   "OTHER": 33,
+   "TEST": 0,
+   "TEST_NEAR": 0,
+   "TRAINDAY_ATTACK": 19,
+   "VAL": 0
+  },
+  "Wednesday-21-02-2018.csv": {
+   "CAL": 0,
+   "FIT": 114,
+   "OTHER": 12,
+   "TEST": 0,
+   "TEST_NEAR": 0,
+   "TRAINDAY_ATTACK": 20,
+   "VAL": 0
+  },
+  "Wednesday-28-02-2018.csv": {
+   "CAL": 0,
+   "FIT": 0,
+   "OTHER": 0,
+   "TEST": 137,
+   "TEST_NEAR": 16,
+   "TRAINDAY_ATTACK": 0,
+   "VAL": 0
+  }
+ },
+ "day_split_roles": {
+  "FIT": 541,
+  "TEST": 405,
+  "TRAINDAY_ATTACK": 133,
+  "OTHER": 131,
+  "CAL": 92,
+  "VAL": 87,
+  "TEST_NEAR": 28
+ },
+ "random_split_roles": {
+  "FIT": 541,
+  "TEST": 538,
+  "OTHER": 159,
+  "CAL": 92,
+  "VAL": 87
+ },
+ "test_attack_types": {
+  "Botnet Ares": 69,
+  "Infiltration - Communication Victim Attacker": 47,
+  "Infiltration - NMAP Portscan": 43,
+  "Infiltration - Dropbox Download": 8
+ },
+ "trainday_attack_types": {
+  "Web Attack - Brute Force": 27,
+  "Web Attack - XSS": 23,
+  "SSH-BruteForce": 19,
+  "DDoS-LOIC-HTTP": 14,
+  "DDoS-LOIC-UDP": 12,
+  "DDoS-HOIC": 12,
+  "DoS Slowloris": 9,
+  "DoS GoldenEye": 8,
+  "Web Attack - SQL": 6,
+  "DoS Hulk": 3
+ },
+ "nodes_total": 3815298,
+ "edges_total": 15574261
+}

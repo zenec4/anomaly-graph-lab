@@ -1,0 +1,105 @@
+{
+ "Friday-02-03-2018": {
+  "FIT": 665,
+  "TRAINDAY_ATTACK": 231,
+  "VAL": 194,
+  "OTHER": 184,
+  "TEST": 137,
+  "TEST_NEAR": 6,
+  "test_attack": 69,
+  "test_benign": 68
+ },
+ "Friday-16-02-2018": {
+  "FIT": 651,
+  "TRAINDAY_ATTACK": 297,
+  "VAL": 187,
+  "OTHER": 165,
+  "TEST": 93,
+  "TEST_NEAR": 12,
+  "TEST_ATTEMPTED": 12,
+  "test_attack": 3,
+  "test_benign": 90
+ },
+ "Friday-23-02-2018": {
+  "FIT": 655,
+  "TRAINDAY_ATTACK": 269,
+  "VAL": 186,
+  "OTHER": 171,
+  "TEST": 118,
+  "TEST_NEAR": 18,
+  "test_attack": 31,
+  "test_benign": 87
+ },
+ "Thursday-01-03-2018": {
+  "FIT": 669,
+  "TRAINDAY_ATTACK": 230,
+  "VAL": 197,
+  "OTHER": 184,
+  "TEST": 131,
+  "TEST_NEAR": 6,
+  "test_attack": 70,
+  "test_benign": 61
+ },
+ "Thursday-15-02-2018": {
+  "FIT": 621,
+  "TRAINDAY_ATTACK": 283,
+  "VAL": 182,
+  "OTHER": 176,
+  "TEST": 143,
+  "TEST_NEAR": 12,
+  "test_attack": 17,
+  "test_benign": 126
+ },
+ "Thursday-22-02-2018": {
+  "FIT": 654,
+  "TRAINDAY_ATTACK": 275,
+  "VAL": 182,
+  "OTHER": 169,
+  "TEST": 117,
+  "TEST_NEAR": 18,
+  "TEST_ATTEMPTED": 2,
+  "test_attack": 25,
+  "test_benign": 92
+ },
+ "Tuesday-20-02-2018": {
+  "FIT": 637,
+  "TRAINDAY_ATTACK": 282,
+  "VAL": 177,
+  "OTHER": 175,
+  "TEST": 134,
+  "TEST_NEAR": 12,
+  "test_attack": 18,
+  "test_benign": 116
+ },
+ "Wednesday-14-02-2018": {
+  "FIT": 641,
+  "TRAINDAY_ATTACK": 281,
+  "VAL": 192,
+  "OTHER": 156,
+  "TEST": 114,
+  "TEST_ATTEMPTED": 21,
+  "TEST_NEAR": 12,
+  "test_attack": 19,
+  "test_benign": 95
+ },
+ "Wednesday-21-02-2018": {
+  "FIT": 640,
+  "TRAINDAY_ATTACK": 280,
+  "OTHER": 176,
+  "VAL": 175,
+  "TEST": 134,
+  "TEST_NEAR": 12,
+  "test_attack": 20,
+  "test_benign": 114
+ },
+ "Wednesday-28-02-2018": {
+  "FIT": 638,
+  "TRAINDAY_ATTACK": 272,
+  "VAL": 182,
+  "OTHER": 172,
+  "TEST": 137,
+  "TEST_NEAR": 16,
+  "test_attack": 28,
+  "test_benign": 109
+ }
+}
